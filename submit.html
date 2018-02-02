@@ -8,16 +8,146 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
   </head>
   <body>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="/">
+            <img src="https://openclipart.org/download/201211/primary-tool-drop-target.svg" width="30" height="30" alt="Home">
+          </a>
+          <a class="navbar-item" href="submit.html">
+            Upload
+          </a>
+          <a class="navbar-item" href="recent.html">
+            Latest Photos
+          </a>
+          <a class="navbar-item" href="faqs.html">
+            FAQs
+          </a>
+          <a class="navbar-item" href="login.html">
+            Login
+          </a>
+          <button class="button navbar-burger">
+            <span></span>   
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </nav>
+
   <section class="section">
     <div class="container">
       <h1 class="title">
         Upload your sighting
       </h1>
       <p class="subtitle">
-        My first website with <strong>Bulma</strong>!
+        Help us track the <strong>alien</strong> menace!
       </p>
     </div>
   </section>
+      
+  <section class="section">
+      <div class="field">
+        <label class="label">Username</label>
+        <div class="control has-icons-left has-icons-right">
+          <input class="input" type="text" placeholder="Enter username">
+          <span class="icon is-small is-left">
+            <i class="fas fa-user"></i>
+          </span>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Password</label>
+        <div class="control">
+           <input class="input" type="password" placeholder="Enter password">
+        </div>
+      </div>
+      
+      <div class="field">
+        <label class="label">Subject</label>
+        <div class="control">
+          <div class="select">
+            <select>
+              <option>Select dropdown</option>
+              <option>Flight Vehicle</option>
+              <option>Crop Circle</option>
+              <option>Alien</option>
+              <option>Alien in Disguise</option>
+              <option>Bigfoot (Terrestrial) </option>
+              <option>Bigfoot (Extra-terrestrial) </option>
+              <option>Remains</option>
+              <option>Alien Writing</option>
+              <option>Schoolteacher</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="field">
+            <label class="label">File Location</label>
+      <div class="file">
+
+            <label class="file-label">
+              <input class="file-input" type="file" name="photographic proof">
+              <span class="file-cta">
+                <span class="file-icon">
+                  <i class="fas fa-upload"></i>
+                </span>
+                <span class="file-label">
+                  Choose a file…
+                </span>
+              </span>
+            </label>
+          </div>
+          </div>
+      <div class="field">
+        <label class="label">Longitude</label>
+        <div class="control">
+           <input class="input" type="text" placeholder="Longitude">
+        </div>
+      </div>
+      <div class="field">
+        <label class="label">Latitude</label>
+        <div class="control">
+           <input class="input" type="text" placeholder="Latitude">
+        </div>
+      </div>
+      
+      <div class="field">
+        <label class="label">Description</label>
+        <div class="control">
+          <textarea class="textarea" placeholder="Additional information"></textarea>
+        </div>
+      </div>
+      
+      <div class="field">
+        <div class="control">
+          <label class="checkbox">
+            <input type="checkbox">
+            I agree to the <a href="#">terms and conditions</a>
+          </label>
+        </div>
+      </div>
+      
+      <div class="field is-grouped">
+        <div class="control">
+          <button class="button is-link">Submit</button>
+        </div>
+        <div class="control">
+          <button class="button is-text">Cancel</button>
+        </div>
+      </div>
+    </section>
+
+  <footer class="footer">
+        <div class="container">
+          <div class="content has-text-centered">
+            <p>
+              Like my site? Check out the 
+              <a href="https://github.com/jraco1/creative1">code</a>
+              over on github!
+            </p>
+          </div>
+        </div>
+      </footer>
   </body>
 </html>
 
